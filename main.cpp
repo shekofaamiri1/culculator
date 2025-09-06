@@ -14,8 +14,7 @@ int main() {
 
     cout << "عدد دوم را وارد کنید: ";
     cin >> b;
-
-    switch (op) {
+switch (op) {
         case '+': result = a + b; break;
         case '-': result = a - b; break;
         case '*': result = a * b; break;
@@ -28,3 +27,4 @@ int main() {
     cout << "نتیجه: " << result << endl;
     return 0;
 }
+   
